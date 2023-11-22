@@ -34,8 +34,11 @@ body {
 .header-s-logo{
     color: var(--navy-blue);
 }
+.nav-menu-link{
+    color: var(--main-slate);
+}
 .nav-menu{
-        color: #2e2f42;
+        color: var(--main-slate);
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -49,14 +52,11 @@ body {
 .nav-menu-link:focus {
     color: var(--ocean);
 }
-.sec-eff-sol{
-    background-color: var(--main-slate);
-}
 .site-address{
         font-style: normal;
 }
 .address-menu{
-        color: #434455;
+        color: var(--main-slate);
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -64,9 +64,15 @@ body {
         /* 150% */
         letter-spacing: 0.02em;
 }
+.address-menu-link{
+color: var(--main-slate);
+}
 .address-menu-link:hover,
 .address-menu-link:focus {
     color: var(--ocean);
+}
+.sec-eff-sol{
+    background-color: var(--navy-blue);
 }
 .title-main{
         color: var(--white);
