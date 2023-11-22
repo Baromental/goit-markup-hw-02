@@ -35,7 +35,7 @@ body {
     color: var(--navy-blue);
 }
 .nav-menu{
-        color: var(--navy-blue);
+        color: #2e2f42;
         font-size: 16px;
         font-style: normal;
         font-weight: 500;
@@ -49,11 +49,14 @@ body {
 .nav-menu-link:focus {
     color: var(--ocean);
 }
+.sec-eff-sol{
+    background-color: var(--main-slate);
+}
 .site-address{
         font-style: normal;
 }
 .address-menu{
-    color: var(--main-slate);
+        color: #434455;
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
@@ -136,6 +139,9 @@ body {
 .sec-team-list{
     background-color: var(--white);
 }
+.sec-team-obj{
+    background-color: var(--white);
+}
 .sec-team-subtitle{
         color: var(--navy-blue);
         font-size: 20px;
@@ -154,6 +160,7 @@ body {
         letter-spacing: 0.02em;
 }
 .button{
+        font-family: "Roboto", sans-serif;
         cursor: pointer;
         font-size: 16px;
         font-style: normal;
@@ -189,6 +196,9 @@ body {
     /* 150% */
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+}
+.site-footer{
+    background-color: var(--navy-blue);
 }
 .site-footer-logo {
     color: var(--iris);
