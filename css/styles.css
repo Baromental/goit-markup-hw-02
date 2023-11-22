@@ -195,7 +195,7 @@ color: var(--main-slate);
         color: var(--navy-blue);
 }
 .opt-text{
-    color: var(--main-slate);
+    /*color: var(--main-slate);*/
     font-size: 16px;
     /*font-style: normal;
     font-weight: 400;*/
