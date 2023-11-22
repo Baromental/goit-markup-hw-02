@@ -56,13 +56,16 @@ body {
         font-style: normal;
 }
 .address-menu{
-        color: var(--navy-blue);
+        color: var(--main-slate);
         font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
         /* 150% */
         letter-spacing: 0.02em;
+}
+.address-menu-link{
+color: var(--main-slate);
 }
 .address-menu-link:hover,
 .address-menu-link:focus {
