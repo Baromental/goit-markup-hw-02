@@ -19,6 +19,14 @@ body {
 .link {
     text-decoration: none;
 }
+.site-header{
+    display: flex;
+    padding-top: 25.5px;
+    padding-left: 25.5px;
+}
+.nav{
+    display: flex;
+}
 .site-header-logo{
     color: var(--iris);
     font-family: "Raleway", sans-serif;
@@ -29,40 +37,48 @@ body {
     /* 116.667% */
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     
 }
 .header-s-logo{
     color: var(--navy-blue);
 }
+.nav-menu{
+    display: flex;
+    column-gap: 40px;
+}
 .nav-menu-link{
     color: var(--navy-blue);
 }
 .nav-menu{
-        color: var(--navy-blue);
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.02em;
-        text-decoration: none;
-        list-style-type: none; 
+    color: var(--navy-blue);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style-type: none; 
 }
 .nav-menu-link:hover,
 .nav-menu-link:focus {
     color: var(--ocean);
 }
+
 .site-address{
-        font-style: normal;
+    font-style: normal;
 }
 .address-menu{
-        color: #434455;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.5;
-        /* 150% */
-        letter-spacing: 0.02em;
+    display: flex;
+    column-gap: 40px;
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 0.02em;
 }
 .address-menu-link{
 color: var(--main-slate);
